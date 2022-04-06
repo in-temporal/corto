@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/corto/static/css/main.8a7c6e27.css",
+    "main.js": "/corto/static/js/main.fd25cf6c.js",
+    "static/js/787.01058087.chunk.js": "/corto/static/js/787.01058087.chunk.js",
+    "static/media/belen.jpg": "/corto/static/media/belen.a93536dabd47cf3a9366.jpg",
+    "static/media/omar.jpg": "/corto/static/media/omar.3a8f7f9e9e09de811ef0.jpg",
+    "static/media/cris.jpg": "/corto/static/media/cris.13097c9c6df8f8e60c95.jpg",
+    "static/media/daya.jpg": "/corto/static/media/daya.ebe566318acf190e1148.jpg",
+    "static/media/yola.jpg": "/corto/static/media/yola.dcf99090ba2c667e6433.jpg",
+    "static/media/luis.jpg": "/corto/static/media/luis.b66cc8711f9f934f6a85.jpg",
+    "static/media/ale.jpg": "/corto/static/media/ale.2a9c6caf095a6722062b.jpg",
+    "static/media/fabi.jpg": "/corto/static/media/fabi.a3d5f792bfb4f0ed4ac1.jpg",
+    "static/media/fredo.jpg": "/corto/static/media/fredo.97d3cb798e3ca403e248.jpg",
+    "static/media/Questrial-Regular.ttf": "/corto/static/media/Questrial-Regular.96dd668fc36d87af7f89.ttf",
+    "static/media/logo.png": "/corto/static/media/logo.3f38c7f7fe0d74dc77b6.png",
+    "static/media/Microgramma D Extended Bold.otf": "/corto/static/media/Microgramma D Extended Bold.9d81240ce329ee3337f7.otf",
+    "index.html": "/corto/index.html",
+    "main.8a7c6e27.css.map": "/corto/static/css/main.8a7c6e27.css.map",
+    "main.fd25cf6c.js.map": "/corto/static/js/main.fd25cf6c.js.map",
+    "787.01058087.chunk.js.map": "/corto/static/js/787.01058087.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a7c6e27.css",
+    "static/js/main.fd25cf6c.js"
+  ]
+}
