@@ -1,0 +1,105 @@
+.About-background{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.About-background h2{
+  margin-bottom: 50px;
+}
+.About-iframe{
+ margin-bottom: 50px;
+}
+.About-img-absolute{
+  position: absolute;
+  right: -125px;
+  bottom: -125px;
+}
+.img-profile-ale{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(../../Assets/Images/ale.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.img-profile-belen{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(../../Assets/Images/belen.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.img-profile-cris{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(../../Assets/Images/cris.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.img-profile-fabi{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(../../Assets/Images/fabi.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.img-profile-yola{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(../../Assets/Images/yola.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.img-profile-luis{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(../../Assets/Images/luis.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.img-profile-fredo{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(../../Assets/Images/fredo.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.img-profile-daya{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(../../Assets/Images/daya.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.img-profile-omar{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(../../Assets/Images/omar.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px
+}
+
+.profile-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

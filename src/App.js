@@ -3,9 +3,14 @@ import './App.css';
 
 import Loader from './components/Loader/index';
 import Home from './components/Home/index';
+import About from './components/About/index';
 import Layout from './components/Layout/index';
+import Intemporal from './components/Intemporal/index';
 
 import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -15,16 +20,17 @@ function App() {
       setLoading(false);
     }, 3000);
   }, []);
+  
 
   return (
     <div className="App">
-      {loading ? 
-        <Loader logo={logo} /> 
-        :
-        <Layout>
-          <Home logo={logo} />
-        </Layout> 
-      }
+      <Layout>
+        <Routes>
+            <Route path="/" element={<Home logo={logo} />} />
+            <Route path="/about" element={<About logo={logo} />} />
+            <Route path="/intemporal" element={<Intemporal logo={logo} />} />
+        </Routes>
+      </Layout>
     </div>
   );
 }
