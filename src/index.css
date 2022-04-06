@@ -1,10 +1,29 @@
+@font-face {
+  font-family: "Questrial";
+  src: local("Questrial"),
+   url("./Assets/Fonts/Questrial/Questrial-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Microgramma";
+    src: local("Microgramma D Extended Bold.otf"),
+     url("./Assets/Fonts/Microgramma/Microgramma\ D\ Extended\ Bold.otf");
+    }
+  
+  
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Questrial", sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Microgramma", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+  color: #024a59;
 }
 
 code {

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Microgramma";
+  src: local("Microgramma D Extended Bold.otf"),
+   url("../../Assets/Fonts/Microgramma/Microgramma\ D\ Extended\ Bold.otf");
+  }
+
+.font-adjust{
+  font-family: 'Microgramma', sans-serif !important;
+  font-family: "Microgramma", sans-serif !important;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: #024a59 !important;
+}
+
+.font-adjust a:hover{
+  color: #fff !important;
+  background-color: #004b5d !important;
+}

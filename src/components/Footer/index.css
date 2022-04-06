@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Microgramma";
+  src: local("Microgramma D Extended Bold.otf"),
+   url("../../Assets/Fonts/Microgramma/Microgramma\ D\ Extended\ Bold.otf");
+  }
+
+.Footer-container{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background-color: #024a59;
+  color: #fff;
+}
+
+.Footer-container span{
+  font-family: 'Microgramma', sans-serif !important;
+  font-family: "Microgramma", sans-serif !important;
+  text-transform: uppercase;
+}
