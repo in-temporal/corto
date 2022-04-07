@@ -1,37 +1,37 @@
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
+import { Navbar, Container, Nav } from "react-bootstrap"
 import './index.css'
+import '../Home/index.css'
 import { Link, useLocation } from 'react-router-dom';
 
 const Index = ({ logo }) => {
   let location = useLocation();
   console.log(location.pathname);
   return (
-    <Navbar fixed="top" bg="transparent" expand="lg">
+    <>
       <Container>
-         {location.pathname === '/' ? (
+         {location.pathname === '/corto' ? (
           <>
             
           </>
          ) : (
           <>
-          <Navbar.Brand className="font-adjust" href="#home">IN TEMPORAL</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Link className="nav-link" to='/' >Home</Link>
-                <Link className="nav-link" to='/about' >Quiénes somos</Link>
-                <Link className="nav-link" to='/intemporal' >Qué es In Temporal</Link>
-                <Link className="nav-link" to='/work' >Trabajos previos</Link>
-                <Link className="nav-link" to='/donate' >Cómo Donar</Link>
-                <Link className="nav-link" to='/sponsors' >Patrocinantes</Link>
-                <Link className="nav-link" to='/contact' >Contacto</Link>
-              </Nav>
-            </Navbar.Collapse>
+          <div className='Header-menu'>
+            <div>
+              <Link to='/corto'><h2>In Temporal</h2></Link>
+              <Link to='/about'><h2>Quiénes somos</h2></Link>
+              <Link to='/intemporal'><h2>Qué es In Temporal</h2></Link>
+            </div>
+            <div>
+              <Link to='/donate'><h2>Cómo Donar</h2></Link>
+              <Link to='/sponsors'><h2>Patrocinantes</h2></Link>
+              <Link to='/contact'><h2>Contacto</h2></Link>
+            </div>
+          </div>
           </>
          ) }
         
       </Container>
-    </Navbar>
+    </>
   )
 }
 

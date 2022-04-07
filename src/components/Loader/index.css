@@ -5,7 +5,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .Loader-logo {
-    animation: Loader-logo-spin infinite 20s linear;
+    animation: Loader-logo-spin infinite 5s ease-in-out;
   }
 }
 
@@ -22,10 +22,20 @@
 
 
 @keyframes Loader-logo-spin {
-  from {
-    transform: rotate(0deg);
+  0% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0);
   }
   to {
-    transform: rotate(360deg);
+    transform: translateY(-40px);
   }
 }
+
+@media (max-width: 960px) {
+  .Loader-logo {
+    height: 100px;
+  }
+}
+

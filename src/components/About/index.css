@@ -1,90 +1,34 @@
 .About-background{
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 .About-background h2{
   margin-bottom: 50px;
 }
+.About-background p{
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 .About-iframe{
  margin-bottom: 50px;
+ width: 560px;
+ height: 315px;
 }
 .About-img-absolute{
   position: absolute;
   right: -125px;
   bottom: -125px;
 }
-.img-profile-ale{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-image: url(../../Assets/Images/ale.jpg);
-  background-position: center;
-  background-size: contain;
-}
-.img-profile-belen{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-image: url(../../Assets/Images/belen.jpg);
-  background-position: center;
-  background-size: contain;
-}
 .img-profile-cris{
   border-radius: 50%;
   height: 100px;
   width: 100px;
   background-image: url(../../Assets/Images/cris.jpg);
-  background-position: center;
-  background-size: contain;
-}
-.img-profile-fabi{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-image: url(../../Assets/Images/fabi.jpg);
-  background-position: center;
-  background-size: contain;
-}
-.img-profile-yola{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-image: url(../../Assets/Images/yola.jpg);
-  background-position: center;
-  background-size: contain;
-}
-.img-profile-luis{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-image: url(../../Assets/Images/luis.jpg);
-  background-position: center;
-  background-size: contain;
-}
-.img-profile-fredo{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-image: url(../../Assets/Images/fredo.jpg);
-  background-position: center;
-  background-size: contain;
-}
-.img-profile-daya{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-image: url(../../Assets/Images/daya.jpg);
-  background-position: center;
-  background-size: contain;
-}
-.img-profile-omar{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-image: url(../../Assets/Images/omar.jpg);
   background-position: center;
   background-size: contain;
 }
@@ -102,4 +46,142 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+.profile-card{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 14px !important;
+}
+.profile-card h2{
+  font-size: 18px !important;
+  color: white;
+  margin: 0;
+ }
+ .datos-container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+ }
+ .datos-container div{
+  border: 1px solid black;
+  padding: 20px;
+}
+.swiper {
+  width: 440px;
+  height: 520px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-image: url(../../Assets/Images/fredo.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-image: url(../../Assets/Images/yola.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-image: url(../../Assets/Images/cris.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-image: url(../../Assets/Images/ale.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(5n) {
+  background-image: url(../../Assets/Images/fabi.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(6n) {
+  background-image: url(../../Assets/Images/omar.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(7n) {
+  background-image: url(../../Assets/Images/luis.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(8n) {
+  background-image: url(../../Assets/Images/daya.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(9n) {
+  background-image: url(../../Assets/Images/belen.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+
+.swiper-slide:nth-child(11n) {
+  background-color: rgb(54, 94, 77);
+}
+
+@media (max-width: 960px) {
+  .profile-container{
+    flex-direction: column;
+  }
+
+  .profile-container h4{
+    font-size: 14px;
+  }
+  .profile-container h5{
+    font-size: 10px;
+  }
+  .About-img-absolute{
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+  .About-iframe{
+    margin-bottom: 50px;
+    width: 100%;
+    height: 215px;
+   }
+   .About-background p{
+    padding-left: 0;
+    padding-right: 0;
+   }
+   .datos-container{
+    display: flex;
+   }
+   .datos-container h1,h2,h3,h4,h5,h6{
+    font-size: 10px !important;
+   }
+   .datos-container p{
+    font-size: 8px !important;
+   }
+   .datos-container p{
+    margin: 0;
+   }
+   .more-datos-container p{
+    margin: 0;
+   }
+   .swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
 }

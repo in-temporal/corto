@@ -11,10 +11,19 @@
   height: 25px;
   background-color: #024a59;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Footer-container span{
   font-family: 'Microgramma', sans-serif !important;
   font-family: "Microgramma", sans-serif !important;
   text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+  .Footer-container{
+    font-size: 12px;
+  }
 }
