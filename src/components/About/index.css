@@ -72,8 +72,8 @@
   padding: 20px;
 }
 .swiper {
-  width: 440px;
-  height: 520px;
+  width: 240px;
+  height: 320px;
 }
 
 .swiper-slide {
@@ -180,8 +180,8 @@
     margin: 0;
    }
    .swiper {
-    width: 240px;
-    height: 320px;
+    width: 140px;
+    height: 220px;
   }
   
 }

@@ -9,7 +9,7 @@ const Index = ({ logo }) => {
   return (
     <>
       <Container>
-         {location.pathname === '/corto' ? (
+         {location.pathname === '/corto' || location.pathname === '/corto/' ? (
           <>
             
           </>
@@ -17,7 +17,7 @@ const Index = ({ logo }) => {
           <>
           <div className='Header-menu'>
             <div>
-              <Link to='/corto'><h2>In Temporal</h2></Link>
+              <Link to='/corto'><h2>Home</h2></Link>
               <Link to='/about'><h2>Quiénes somos</h2></Link>
               <Link to='/intemporal'><h2>Qué es In Temporal</h2></Link>
             </div>
