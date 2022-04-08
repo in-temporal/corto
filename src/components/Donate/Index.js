@@ -7,7 +7,6 @@ const Index = () => {
   return (
     <div className='About-background'>
       <Container>
-        <h2>Donaciones</h2>
         <p>Puedes donar a través de las siguientes vías:</p>
         <div className='datos-container'>
           <div>
