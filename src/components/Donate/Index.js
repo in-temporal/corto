@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div className='About-background'>
       <Container>
-        <h1>Donaciones</h1>
+        <h2>Donaciones</h2>
         <p>Puedes donar a través de las siguientes vías:</p>
         <div className='datos-container'>
           <div>
@@ -37,7 +37,6 @@ const Index = () => {
           <p>+58 (424-1340110)</p>
           <p>Cristina Betancourt - Directora de Producción</p>
           <h4>El patrocinio también es una ayuda.</h4>
-          <p>Si tienes una empresa o emprendimiento y deseas patrocinarnos, contáctanos a través de las siguientes vías:</p>
         </div>
       </Container>
 

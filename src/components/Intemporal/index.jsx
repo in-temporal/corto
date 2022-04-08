@@ -9,10 +9,10 @@ const index = ({ logo }) => {
       </div>
       <h2>¿Qué es In Temporal?</h2>
       <Container>
-        <iframe className='About-iframe' src="https://www.youtube.com/embed/3XTJc-_F61Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gaafiHeJ88w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </Container>
       <Container>
-      <p>Un par de adolescentes enamorados irrumpen en una mansión abandonada. Al explorar el interior, descubren que la casa se distorsiona y el chico queda atrapado en una habitación. Mientras la chica intenta ayudarlo a salir, alrededor de la casa habitan sus versiones futuras que reflejan sus complejos, sueños y miedos a lo largo de sus vidas.</p>
+        <p>Un par de adolescentes irrumpen en una mansión abandonada. Al explorar el interior, descubren que la casa se distorsiona y el chico queda atrapado en una habitación. Mientras la chica intenta ayudarlo a salir, observa que el tiempo cambia y que en la casa habitan sus versiones futuras.</p>
       </Container>
     </div>
   )

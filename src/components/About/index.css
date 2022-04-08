@@ -180,8 +180,16 @@
     margin: 0;
    }
    .swiper {
-    width: 140px;
-    height: 220px;
+    width: 240px;
+    height: 320px;
   }
   
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  .swiper {
+    width: 140px;
+    height: 220px;
+    display: none;
+  }
 }
