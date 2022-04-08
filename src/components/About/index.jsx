@@ -93,7 +93,7 @@ const index = ({ logo }) => {
       </div>
       <br />
       <Container>
-        <p>Somos estudiantes del último semestre de Comunicación Social de la Universidad Católica Andrés Bello y, actualmente, estamos cursando la concentración de Producción Audiovisual. A lo largo de nuestra carrera, hemos obtenido los conocimientos necesarios para llevar a cabo un trabajo profesional en nuestra tesis de grado, que es el cortometraje In Temporal.</p>
+        <p className='for-cris'>Somos estudiantes del último semestre de Comunicación Social de la Universidad Católica Andrés Bello y, actualmente, estamos cursando la concentración de Producción Audiovisual. A lo largo de nuestra carrera, hemos obtenido los conocimientos necesarios para llevar a cabo un trabajo profesional en nuestra tesis de grado, que es el cortometraje In Temporal.</p>
       </Container>
       
     </div>
