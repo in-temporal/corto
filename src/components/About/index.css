@@ -97,37 +97,37 @@
 }
 
 .swiper-slide:nth-child(3n) {
-  background-image: url(../../Assets/Images/cris.jpg);
-  background-size: cover;
-}
-
-.swiper-slide:nth-child(4n) {
-  background-image: url(../../Assets/Images/ale.jpg);
-  background-size: cover;
-}
-
-.swiper-slide:nth-child(5n) {
-  background-image: url(../../Assets/Images/fabi.jpg);
-  background-size: cover;
-}
-
-.swiper-slide:nth-child(6n) {
   background-image: url(../../Assets/Images/omar.jpg);
   background-size: cover;
 }
 
-.swiper-slide:nth-child(7n) {
-  background-image: url(../../Assets/Images/luis.jpg);
+.swiper-slide:nth-child(4n) {
+  background-image: url(../../Assets/Images/cris.jpg);
   background-size: cover;
 }
 
-.swiper-slide:nth-child(8n) {
+.swiper-slide:nth-child(5n) {
   background-image: url(../../Assets/Images/daya.jpg);
   background-size: cover;
 }
 
-.swiper-slide:nth-child(9n) {
+.swiper-slide:nth-child(6n) {
   background-image: url(../../Assets/Images/belen.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(7n) {
+  background-image: url(../../Assets/Images/ale.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(8n) {
+  background-image: url(../../Assets/Images/fabi.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(9n) {
+  background-image: url(../../Assets/Images/luis.jpg);
   background-size: cover;
 }
 

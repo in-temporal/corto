@@ -36,8 +36,28 @@ const index = ({ logo }) => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="profile-card">
+              <h2>Omar Fernández</h2>
+              Script y Director de Casting
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="profile-card">
               <h2>Cristina Betancourt</h2>
               Directora de Producción
+            </div>
+          </SwiperSlide>
+          
+          
+          <SwiperSlide>
+            <div className="profile-card">
+              <h2>Dayana Arocha</h2>
+              Jefe de Producción
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="profile-card">
+              <h2>Belén Rojas</h2>
+              Asistente de Producción
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -52,28 +72,11 @@ const index = ({ logo }) => {
               Directora de Arte
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="profile-card">
-              <h2>Omar Fernández</h2>
-              Script y Director de Casting
-            </div>
-          </SwiperSlide>
+          
           <SwiperSlide>
             <div className="profile-card">
               <h2>Luis Gentile</h2>
               Sonido
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="profile-card">
-              <h2>Dayana Arocha</h2>
-              Jefe de producción
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="profile-card">
-              <h2>Belén Rojas</h2>
-              Asistente de producción
             </div>
           </SwiperSlide>
         </Swiper>
