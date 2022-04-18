@@ -56,7 +56,7 @@ const index = ({ logo }) => {
           <SwiperSlide>
             <div className="profile-card">
               <h2>Omar Fernández</h2>
-              Script 
+              Script y Director de Casting
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -75,18 +75,6 @@ const index = ({ logo }) => {
             <div className="profile-card">
               <h2>Belén Rojas</h2>
               Asistente de producción
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="profile-card">
-              <h2>Luis Pereira</h2>
-              Asistente de fotografía
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="profile-card">
-              <h2>María Isabel Barrios</h2>
-              Asistente de arte
             </div>
           </SwiperSlide>
         </Swiper>
