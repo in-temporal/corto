@@ -1,5 +1,5 @@
 .About-background{
-  min-height: 100vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,7 +183,14 @@
     width: 220px;
     height: 300px;
   }
-  
+  .About-background{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {

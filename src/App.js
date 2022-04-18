@@ -1,6 +1,7 @@
 import logo from './logo.png';
 import './App.css';
 
+
 import Loader from './components/Loader/index';
 import Home from './components/Home/index';
 import About from './components/About/index';

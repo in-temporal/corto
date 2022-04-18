@@ -1,5 +1,5 @@
 .Home-logo{
-  width: 400px;
+  width: 300px;
   margin-right: 10px;
 }
 
@@ -8,7 +8,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 97vh;
+  width: 100vw;
 }
 
 .Home-logo-container{
