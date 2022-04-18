@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/corto/static/css/main.d43cb448.css",
+    "main.css": "/corto/static/css/main.6b8339ad.css",
     "main.js": "/corto/static/js/main.67fdcae4.js",
     "static/js/787.01058087.chunk.js": "/corto/static/js/787.01058087.chunk.js",
     "static/media/belen.jpg": "/corto/static/media/belen.a93536dabd47cf3a9366.jpg",
@@ -19,12 +19,12 @@
     "static/media/Microgramma D Extended Bold.otf": "/corto/static/media/Microgramma D Extended Bold.9d81240ce329ee3337f7.otf",
     "static/media/logomontaña.png": "/corto/static/media/logomontaña.4dba542d4a25ea8dd9d1.png",
     "index.html": "/corto/index.html",
-    "main.d43cb448.css.map": "/corto/static/css/main.d43cb448.css.map",
+    "main.6b8339ad.css.map": "/corto/static/css/main.6b8339ad.css.map",
     "main.67fdcae4.js.map": "/corto/static/js/main.67fdcae4.js.map",
     "787.01058087.chunk.js.map": "/corto/static/js/787.01058087.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d43cb448.css",
+    "static/css/main.6b8339ad.css",
     "static/js/main.67fdcae4.js"
   ]
 }
