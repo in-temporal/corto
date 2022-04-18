@@ -7,7 +7,6 @@ const index = ({ logo }) => {
       <div className="About-img-absolute">
         <img src={logo} className="Loader-logo" alt="logo" />
       </div>
-      <h6>¿Qué es In Temporal?</h6>
       <Container>
         <iframe className='About-iframe' width="560" height="315" src="https://www.youtube.com/embed/gaafiHeJ88w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </Container>

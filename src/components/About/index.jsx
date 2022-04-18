@@ -14,7 +14,6 @@ const index = ({ logo }) => {
   return (
     <div className="About-background">
       
-      <h2>¿Quiénes somos?</h2>
       
       <div className='profile-container'>
         <Swiper
