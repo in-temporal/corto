@@ -19,6 +19,7 @@ const Index = ({ logo }) => {
             <div>
               <Link to='/corto'><h2>Home</h2></Link>
               <Link to='/about'><h2>Quiénes somos</h2></Link>
+              <Link to='/trabajos-previos'><h2>Trabajos previos</h2></Link>
               <Link to='/intemporal'><h2>Qué es In Temporal</h2></Link>
             </div>
             <div>
@@ -26,6 +27,7 @@ const Index = ({ logo }) => {
               <Link to='/sponsors'><h2>Patrocinantes</h2></Link>
               <Link to='/contact'><h2>Contacto</h2></Link>
             </div>
+            
           </div>
           </>
          ) }
