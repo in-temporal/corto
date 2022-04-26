@@ -11,12 +11,19 @@ import Contact from './components/Contact/Index';
 import Sponsors from './components/Sponsors/Index';
 import Previo from './components/Previo/index';
 
-import { BrowserRouter as Route, Routes } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
 function App() {
- 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
   
 
   return (
