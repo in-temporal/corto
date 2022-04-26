@@ -9,6 +9,7 @@ import Intemporal from './components/Intemporal/index';
 import Donate from './components/Donate/Index';
 import Contact from './components/Contact/Index';
 import Sponsors from './components/Sponsors/Index';
+import Previo from './components/Previo/index';
 
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -35,6 +36,7 @@ function App() {
             <Route path="/sponsors" element={<Sponsors logo={logo} />} />
             <Route path="/donate" element={<Donate logo={logo} />} />
             <Route path="/contact" element={<Contact logo={logo} />} />
+            <Route path="/trabajos-previos" element={<Previo logo={logo} />} />
         </Routes>
       </Layout>
     </div>

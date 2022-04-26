@@ -1,5 +1,6 @@
 import { Container } from 'react-bootstrap'
 import '../About/index.css'
+import'../Loader/index.css'
 
 const index = ({ logo }) => {
   return (

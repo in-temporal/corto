@@ -68,7 +68,7 @@ const index = ({ logo }) => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="profile-card">
-              <h2>Fabiana Hernández</h2>
+              <h2>Fabiana Henríquez</h2>
               Directora de Arte
             </div>
           </SwiperSlide>

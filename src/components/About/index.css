@@ -24,6 +24,9 @@
   right: -125px;
   bottom: -125px;
 }
+.About-img-absolute img{
+  width: 400px;
+}
 .img-profile-cris{
   border-radius: 50%;
   height: 100px;
@@ -190,6 +193,9 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+  }
+  .About-img-absolute img {
+    width: auto;
   }
 }
 
