@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/corto/static/css/main.a0e148bb.css",
-    "main.js": "/corto/static/js/main.f0f121cb.js",
+    "main.css": "/corto/static/css/main.5c45f9cb.css",
+    "main.js": "/corto/static/js/main.85b2e048.js",
     "static/js/787.01058087.chunk.js": "/corto/static/js/787.01058087.chunk.js",
+    "static/media/luisp.jpg": "/corto/static/media/luisp.0c4fcf9682c6578c245c.jpg",
     "static/media/belen.jpg": "/corto/static/media/belen.a93536dabd47cf3a9366.jpg",
     "static/media/yola.jpg": "/corto/static/media/yola.ca5ef7266479399111a5.jpg",
     "static/media/cris.jpg": "/corto/static/media/cris.fba748e021a9bc8cc183.jpg",
@@ -12,23 +13,26 @@
     "static/media/ale.jpg": "/corto/static/media/ale.2a9c6caf095a6722062b.jpg",
     "static/media/fabi.jpg": "/corto/static/media/fabi.a988678b60dbe584b912.jpg",
     "static/media/fredo.jpg": "/corto/static/media/fredo.97d3cb798e3ca403e248.jpg",
+    "static/media/isa.JPG": "/corto/static/media/isa.7839383e3e4a2f3e935f.JPG",
     "static/media/Questrial-Regular.ttf": "/corto/static/media/Questrial-Regular.96dd668fc36d87af7f89.ttf",
     "static/media/logo.png": "/corto/static/media/logo.3f38c7f7fe0d74dc77b6.png",
     "static/media/paint.png": "/corto/static/media/paint.2a3effab5cfd0b5350ed.png",
     "static/media/kobe.png": "/corto/static/media/kobe.c2457aeb0e3445fb1530.png",
+    "static/media/laser.jpg": "/corto/static/media/laser.5e0e9fdf9a2a3a342297.jpg",
     "static/media/212.jpeg": "/corto/static/media/212.4cad78f74dc1bb9d6b8a.jpeg",
     "static/media/jvg.png": "/corto/static/media/jvg.4ee9843cf3f837e0c3c0.png",
     "static/media/redblu.png": "/corto/static/media/redblu.cfabd9be73e364f8f2c4.png",
     "static/media/templo.png": "/corto/static/media/templo.91393a125d2889365881.png",
     "static/media/Microgramma D Extended Bold.otf": "/corto/static/media/Microgramma D Extended Bold.9d81240ce329ee3337f7.otf",
     "static/media/logomontaña.png": "/corto/static/media/logomontaña.4dba542d4a25ea8dd9d1.png",
+    "static/media/ridery.png": "/corto/static/media/ridery.bec91c86085f4ff36073.png",
     "index.html": "/corto/index.html",
-    "main.a0e148bb.css.map": "/corto/static/css/main.a0e148bb.css.map",
-    "main.f0f121cb.js.map": "/corto/static/js/main.f0f121cb.js.map",
+    "main.5c45f9cb.css.map": "/corto/static/css/main.5c45f9cb.css.map",
+    "main.85b2e048.js.map": "/corto/static/js/main.85b2e048.js.map",
     "787.01058087.chunk.js.map": "/corto/static/js/787.01058087.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0e148bb.css",
-    "static/js/main.f0f121cb.js"
+    "static/css/main.5c45f9cb.css",
+    "static/js/main.85b2e048.js"
   ]
 }
