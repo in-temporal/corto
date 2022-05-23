@@ -134,12 +134,14 @@
   background-size: cover;
 }
 
-.swiper-slide:nth-child(10n) {
-  background-color: rgb(54, 94, 77);
+.swiper-slide:nth-child(10n) { 
+  background-image: url(../../Assets/Images/luisp.jpg);
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(11n) {
-  background-color: rgb(54, 94, 77);
+  background-image: url(../../Assets/Images/isa.JPG);
+  background-size: cover;
 }
 
 @media (max-width: 960px) {

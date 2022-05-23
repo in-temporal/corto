@@ -31,7 +31,7 @@ const index = ({ logo }) => {
           <SwiperSlide>
             <div className="profile-card">
               <h2>Yolanda Bastos</h2>
-              Asistente de Dirección
+              Primer Asistente de Dirección
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -57,7 +57,7 @@ const index = ({ logo }) => {
           <SwiperSlide>
             <div className="profile-card">
               <h2>Belén Rojas</h2>
-              Asistente de Producción
+              Segundo Asistente de Dirección
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -77,6 +77,18 @@ const index = ({ logo }) => {
             <div className="profile-card">
               <h2>Luis Gentile</h2>
               Sonido
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="profile-card">
+              <h2>Luis Pereira</h2>
+              Coordinador de Producción
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="profile-card">
+              <h2>María Isabel Barrios</h2>
+              Asistente de Arte
             </div>
           </SwiperSlide>
         </Swiper>
