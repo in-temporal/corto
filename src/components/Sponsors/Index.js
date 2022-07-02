@@ -9,6 +9,7 @@ import paintball from "../../Assets/Images/212.jpeg"
 import ridery from "../../Assets/Images/ridery.png"
 import area from "../../Assets/Images/laser.jpg"
 import virtus from "../../Assets/Images/virtus.png"
+import vendo from "../../Assets/Images/virtus.png"
 
 import './index.css'
 
@@ -25,6 +26,7 @@ const Index = () => {
       <Image src={ridery} className='templo' />
       <Image src={area} className='templo' />
       <Image src={virtus} className='templo' />
+      <Image src={vendo} className='templo' />
     </Container>
   )
 }
