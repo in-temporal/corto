@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/corto/static/css/main.5c45f9cb.css",
-    "main.js": "/corto/static/js/main.d59ccc48.js",
+    "main.js": "/corto/static/js/main.e4c2a70b.js",
     "static/js/787.01058087.chunk.js": "/corto/static/js/787.01058087.chunk.js",
     "static/media/luisp.jpg": "/corto/static/media/luisp.0c4fcf9682c6578c245c.jpg",
     "static/media/belen.jpg": "/corto/static/media/belen.a93536dabd47cf3a9366.jpg",
@@ -16,6 +16,7 @@
     "static/media/isa.JPG": "/corto/static/media/isa.7839383e3e4a2f3e935f.JPG",
     "static/media/Questrial-Regular.ttf": "/corto/static/media/Questrial-Regular.96dd668fc36d87af7f89.ttf",
     "static/media/logo.png": "/corto/static/media/logo.3f38c7f7fe0d74dc77b6.png",
+    "static/media/vendo.jpg": "/corto/static/media/vendo.16565d5a03e3ea097be7.jpg",
     "static/media/paint.png": "/corto/static/media/paint.2a3effab5cfd0b5350ed.png",
     "static/media/kobe.png": "/corto/static/media/kobe.c2457aeb0e3445fb1530.png",
     "static/media/laser.jpg": "/corto/static/media/laser.5e0e9fdf9a2a3a342297.jpg",
@@ -28,11 +29,11 @@
     "static/media/ridery.png": "/corto/static/media/ridery.bec91c86085f4ff36073.png",
     "index.html": "/corto/index.html",
     "main.5c45f9cb.css.map": "/corto/static/css/main.5c45f9cb.css.map",
-    "main.d59ccc48.js.map": "/corto/static/js/main.d59ccc48.js.map",
+    "main.e4c2a70b.js.map": "/corto/static/js/main.e4c2a70b.js.map",
     "787.01058087.chunk.js.map": "/corto/static/js/787.01058087.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c45f9cb.css",
-    "static/js/main.d59ccc48.js"
+    "static/js/main.e4c2a70b.js"
   ]
 }
