@@ -9,7 +9,7 @@ import paintball from "../../Assets/Images/212.jpeg"
 import ridery from "../../Assets/Images/ridery.png"
 import area from "../../Assets/Images/laser.jpg"
 import virtus from "../../Assets/Images/virtus.png"
-import vendo from "../../Assets/Images/virtus.png"
+import vendo from "../../Assets/Images/vendo.jpg"
 
 import './index.css'
 
